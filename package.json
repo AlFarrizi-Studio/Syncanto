@@ -1,0 +1,44 @@
+{
+  "name": "syncanto-lyrics",
+  "version": "1.0.0",
+  "description": "Multi-provider lyrics scraper (17 providers: LRCLIB, Musixmatch, NetEase, Genius, Spotify, LetrasMus, KuGou, QQMusic, AppleMusic, YouLyPlus, BiniLyrics, BetterLyrics, LyricsOvh, Unison, LyricFind, YouTubeMusic, YouTubeCaptions) written in TypeScript",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start": "node --import tsx src/index.ts",
+    "test": "tsx src/test.ts"
+  },
+  "keywords": [
+    "lyrics",
+    "lrc",
+    "synced-lyrics",
+    "lrclib",
+    "musixmatch",
+    "netease",
+    "genius",
+    "spotify",
+    "letras-mus",
+    "kugou",
+    "qq-music",
+    "apple-music",
+    "lyricfind",
+    "youtube-music"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "tsx": "^4.23.13"
+  }
+}
