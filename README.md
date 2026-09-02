@@ -1,12 +1,26 @@
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/AlFarrizi-Studio/Syncanto/refs/heads/main/public/Syncanto.png" alt="Syncanto Logo" width="180"/>
+
 # Syncanto Lyrics Provider
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue.svg)](https://www.typescriptlang.org/)
-[![Node](https://img.shields.io/badge/Node-%3E%3D18-green.svg)](https://nodejs.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+**A unified TypeScript lyrics scraper aggregating 17 sources behind a single API — with proxy rotation, IP geolocation, and graceful fallback.**
 
-Multi-provider lyrics scraper written in TypeScript. Aggregates **17 lyrics sources** behind a single unified API, with proxy rotation, IP geolocation, and graceful fallback for rate-limited / cookie-gated providers.
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Node](https://img.shields.io/badge/Node-%3E%3D18-339933.svg?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-F1C40F.svg?style=for-the-badge)](LICENSE)
+[![Providers](https://img.shields.io/badge/Providers-17-9B59B6.svg?style=for-the-badge)](#providers)
+[![Deps](https://img.shields.io/badge/Runtime_Deps-0-27AE60.svg?style=for-the-badge)](#features)
 
-Inspired by [syncedlyrics](https://github.com/moehmeni/syncedlyrics), [NodeLink](https://github.com/PerformanC/NodeLink), [better-lyrics](https://github.com/better-lyrics/better-lyrics), [YouLyPlus](https://github.com/ibratabian17/YouLyPlus), [vivi-music](https://github.com/vivizzz007/vivi-music), [ZonyLrcToolsX](https://github.com/real-zony/ZonyLrcToolsX), and [Paxsenix Lyrically](https://lyrics.paxsenix.org).
+</div>
+
+---
+
+## About
+
+Syncanto is a multi-provider lyrics scraper written in TypeScript. It aggregates **17 lyrics sources** behind a single unified API, with built-in proxy rotation, IP geolocation, and graceful fallback for rate-limited or cookie-gated providers.
+
+> Inspired by [syncedlyrics](https://github.com/moehmeni/syncedlyrics), [NodeLink](https://github.com/PerformanC/NodeLink), [better-lyrics](https://github.com/better-lyrics/better-lyrics), [YouLyPlus](https://github.com/ibratabian17/YouLyPlus), [vivi-music](https://github.com/vivizzz007/vivi-music), [ZonyLrcToolsX](https://github.com/real-zony/ZonyLrcToolsX), and [Paxsenix Lyrically](https://lyrics.paxsenix.org).
 
 ## Features
 
